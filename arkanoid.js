@@ -200,7 +200,7 @@ function Bonus(bonusX,bonusY){
     }
 }
 function drawBonuses(){
-    for(i=0;i<bonuses.length;i++){
+    for(var i=0;i<bonuses.length;i++){
         bonuses[i].draw(ctx);
         bonuses[i].move();
 
